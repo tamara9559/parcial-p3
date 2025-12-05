@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Agendar Cita</title>
+  <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+  <h2>Agendar Cita</h2>
+  <form id="scheduleForm">
+    <label>Email del paciente: <input type="email" id="email"></label><br>
+    <label>Doctor: <select id="doctorSelect"></select></label><br>
+    <label>Fecha y hora: <input type="datetime-local" id="start"></label><br>
+    <button type="submit">Agendar</button>
+  </form>
+  <div id="msg"></div>
+  <script src="static/main.js"></script>
+</body>
+</html>
